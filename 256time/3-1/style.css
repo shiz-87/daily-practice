@@ -12,6 +12,7 @@ p {
 body {
   font-family: "Noto Sans JP", sans-serif;
   color: #333;
+  padding: 32px;
 }
 
 ul {
@@ -25,6 +26,10 @@ img {
 }
 
 .values {
+  @media (width >= 768px) {
+    max-width: 960px;
+    margin-inline: auto;
+  }
 }
 
 .values__title {
@@ -50,10 +55,17 @@ img {
   flex-direction: column;
   gap: 48px;
   margin-top: 32px;
+
+  @media (width >= 768px) {
+    flex-direction: row;
+    gap: 32px;
+  }
 }
 
 .values__item {
+  flex: 1;
 }
+
 .values-item {
 }
 
