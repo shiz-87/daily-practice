@@ -2,19 +2,78 @@ body,
 h2,
 h3,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 img {
-    vertical-align: bottom;
+  vertical-align: bottom;
+}
+
+.values {
+}
+
+.values__title {
+  font-size: 24px;
+  padding-block: 16px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  position: relative;
+
+  &::after {
+    content: "Our Values";
+    position: absolute;
+    bottom: -14px;
+    right: 0;
+    font-size: 54px;
+    color: #eee;
+    z-index: -1;
+  }
+}
+
+.values__list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 32px;
+}
+
+.values__item {
+}
+.values-item {
+}
+
+.values-item__image {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.values-item__title {
+  font-size: 16px;
+  padding-block: 16px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin-top: 24px;
+}
+
+.values-item__text {
+  font-size: 16px;
+  margin-top: 16px;
+  line-height: 1.6;
 }
