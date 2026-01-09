@@ -36,6 +36,10 @@ a {
   flex-shrink: 0;
   padding-top: 16px;
   background: #1f76f9;
+
+  @media screen and (width <= 600px) {
+    width: 80px;
+  }
 }
 
 .dashbord__item {
@@ -56,12 +60,23 @@ a {
   align-items: center;
   color: #fff;
   gap: 8px;
+
+  @media screen and (width <= 600px) {
+    display: grid;
+    place-items: center;
+  }
 }
 
 .dashbord-link__icon {
   .bi {
     font-size: 24px;
     color: #fff;
+  }
+}
+
+.dashbord-link__text {
+  @media screen and (width <= 600px) {
+    display: none;
   }
 }
 
