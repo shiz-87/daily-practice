@@ -25,13 +25,13 @@ a {
   color: inherit;
 }
 
-.dashbord {
+.dashboard {
   display: flex;
   height: 100vh;
   overflow: hidden;
 }
 
-.dashbord__sidebar {
+.dashboard__sidebar {
   width: 160px;
   flex-shrink: 0;
   padding-top: 16px;
@@ -42,7 +42,7 @@ a {
   }
 }
 
-.dashbord__item {
+.dashboard__item {
   padding: 8px 16px;
   transition: background 0.3s;
 
@@ -55,7 +55,7 @@ a {
   }
 }
 
-.dashbord-link {
+.dashboard-link {
   display: flex;
   align-items: center;
   color: #fff;
@@ -67,33 +67,33 @@ a {
   }
 }
 
-.dashbord-link__icon {
+.dashboard-link__icon {
   .bi {
     font-size: 24px;
     color: #fff;
   }
 }
 
-.dashbord-link__text {
+.dashboard-link__text {
   @media screen and (width <= 600px) {
     display: none;
   }
 }
 
-.dashbord__main {
+.dashboard__main {
   padding: 16px;
   overflow-y: auto;
   flex: 1;
 }
 
-.dashbord__title {
+.dashboard__title {
   font-size: 22px;
   border-bottom: 1px solid #1f1f1f;
   padding-bottom: 8px;
   font-weight: normal;
 }
 
-.dashbord__description {
+.dashboard__description {
   line-height: 1.6;
   margin-top: 16px;
 }
