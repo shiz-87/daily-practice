@@ -43,7 +43,6 @@ a {
 }
 
 .dashboard__item {
-  padding: 8px 16px;
   transition: background 0.3s;
 
   &.is-checked {
@@ -56,6 +55,7 @@ a {
 }
 
 .dashboard-link {
+  padding: 8px 16px;
   display: flex;
   align-items: center;
   color: #fff;
