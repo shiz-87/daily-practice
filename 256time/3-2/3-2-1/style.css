@@ -62,8 +62,7 @@ a {
   gap: 8px;
 
   @media screen and (width <= 600px) {
-    display: grid;
-    place-items: center;
+    justify-content: center;
   }
 }
 
